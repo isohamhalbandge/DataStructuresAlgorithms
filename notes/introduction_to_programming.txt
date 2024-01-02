@@ -4,3 +4,71 @@ Number System
 
 2. decimal -> Base 10
 { 0,1,2,3,4,5,6,7,8,9 }
+
+Higher computing was required because of higher efficiency and accuracy
+The main purpose of computer was for computing.
+
+Transistor
+----------
+semiconductor device that amplifies or switch electronic signals and electrical power. in a computer
+microchip, transistor act as switches, letting current through to represent the binary digit 1, or cutting it off to 
+represent 0.
+
+bulb off -> 0
+bulb on -> 1
+
+this acts as binary number system
+
+Binary Number
+-------------
+Base 2 -> { 0,1 }
+
+0 + 0 = 0
+0 + 1 = 1
+1 + 0 = 1
+1 + 1 = 10 (1 + 1 will have carry 1) 
+
+convert 27 to binary
+
+method 1
+
+32  16  8   4   2   1
+----------------------
+    1   0   0   0   0  = 16
+    1   1   0   0   0  = 24
+    1   1   0   1   0  = 26
+    1   1   0   1   1  = 27 
+
+decimal number system will be 11011
+
+method 2
+
+division by 2 until the quotient doesnt becomes zero
+
+2   |   27  |   remainder
+2   |   13  |   1     ^
+2   |   6   |   1     |
+2   |   3   |   0     |
+2   |   1   |   1     |
+2   |   0   |   1     |
+                      |
+        ---------------
+
+it will be taken from 0 to remainder but from downward direction
+decimal number system will be -> 011011
+
+How to verify that 11011 will be 27?
+
+we will multiply it by 2^(n) 
+where n ranges from 0 to maximum number of digits - 1
+
+for 11011 maximum number of digits = 4 (it will be 5 if we start from 1)
+for eg. 11011 = 1 * 2^4 + 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 1 * 2^0
+              = 16 + 8 + 0 + 2 + 1
+              = 27 
+
+Octal decimal -> base 8
+{ 0,1,2,3,4,5,6,7 }
+
+Hexadecimal -> base 16
+{ 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F }
