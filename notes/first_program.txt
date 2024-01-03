@@ -1,0 +1,18 @@
+how transistor store data?
+
+1 bit = Binary
+8 bit = 1 bytes
+1024 bytes = 1 KB
+1024 kb = 1 MB
+1024 MB = 1 GB
+2^10 GB = 1 TB
+2^10 TB = 1 PB
+
+how do we store values A, B, C?
+assign values to it. for e.g.
+
+A -> 65
+B -> 66
+C -> 67
+
+ASCII Table -> allocates every character a specific value
