@@ -16,3 +16,26 @@ B -> 66
 C -> 67
 
 ASCII Table -> allocates every character a specific value
+
+how to represent -2 in binary?
+
+step0. write binary value
+step1. take 1's complement 
+step2. take 2's complement
+
+binary -> 010 (stored in 3 bitsa )
+1's complement -> 101 (converting 0 to 1 and 1 to 0)
+2's complement -> 110 (add + 1 to 1's complement)
+
+1 1 0 1 1 -> least significant bit
+^
+|
+most significant bit
+
+if most significant bit is zero, the number is positive
+if most significant bit is one, the number is negative
+
+for 3 bits
+8 different numbers can be stored
+1. negative ->  {-1,-2,-3,-4} i.e -2^(2)
+2. positive -> {0,1,2,3} i.e. 2^(2) - 1
